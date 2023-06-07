@@ -1,0 +1,22 @@
+.kanban{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    min-height: 400px;
+    padding: 10px;
+}
+.column{
+    background-color: darkred;
+    border-radius: 5px;
+    min-width: 200px;
+    padding: 10px;
+}
+.item{
+    background-color: darksalmon;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+}
+.draggig{
+    opacity: 0.5;
+}
